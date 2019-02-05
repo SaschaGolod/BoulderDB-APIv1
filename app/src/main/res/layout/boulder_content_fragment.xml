@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/toolbar_in_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorFlashh"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/TodoCheckBox123123"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:shadowColor="@color/TabColour"
+            android:text="Todo"
+            android:textColor="@color/TabColour"
+            android:buttonTint="@color/TabColour"
+            android:onClick="itemClick"/>
+
+        <CheckBox
+            android:id="@+id/Done123123"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Done"
+            android:textColor="@color/TabColour"
+            android:buttonTint="@color/TabColour"
+            android:onClick="itemClick"/>
+
+        <CheckBox
+            android:id="@+id/projekt123123"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/Done123123"
+            android:layout_weight="1"
+            android:text="Projekt"
+            android:textColor="@color/TabColour"
+            android:layout_gravity="center"
+            android:buttonTint="@color/TabColour"
+            android:onClick="itemClick"/>
+
+        <TextView
+            android:id="@+id/tags1234"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginEnd="15dp"
+            android:layout_weight="0"
+            android:text="Tags"
+            android:textColor="@color/TabColour"
+            android:onClick="tagsClick"/>
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0"
+            android:layout_marginEnd="15dp"
+            app:srcCompat="@drawable/ic_tune_white"
+            android:onClick="GradeSettingClick"/>
+
+
+    </LinearLayout>
+
+
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/recyclerView123"
+        android:background="@android:color/darker_gray"
+        android:layout_marginTop="50dp"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"/>
+
+</RelativeLayout>

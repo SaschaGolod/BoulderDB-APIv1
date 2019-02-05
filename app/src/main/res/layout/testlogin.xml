@@ -1,0 +1,111 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="116dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="44dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageview3"
+            android:contentDescription="@string/flash_logo"
+            android:layout_width="174dp"
+            android:layout_height="154dp"
+            android:layout_gravity="center_horizontal"
+            android:scaleX="0.5"
+            android:scaleY="0.5"
+            android:src="@drawable/flash_logo" />
+
+        <EditText
+            android:id="@+id/editTextView_Username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:autofillHints="Username"
+            android:background="@drawable/login_edit_background"
+            android:drawableStart="@drawable/ic_user"
+            android:drawablePadding="10dp"
+            android:hint="@string/username"
+            android:padding="10dp"
+            android:selectAllOnFocus="false"
+            android:singleLine="false"
+            android:textColor="@color/common_google_signin_btn_text_dark_default"
+            android:textColorHint="#607D8B"
+            android:textSize="12sp" />
+
+        <EditText
+            android:id="@+id/editTextView_Password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:autofillHints="@string/username"
+            android:background="@drawable/login_edit_background"
+            android:drawableStart="@drawable/ic_password"
+            android:drawablePadding="10dp"
+            android:hint="@string/passwort"
+            android:inputType="textPassword"
+            android:padding="10dp"
+            android:selectAllOnFocus="false"
+            android:singleLine="false"
+            android:textColor="@color/common_google_signin_btn_text_dark_pressed"
+            android:textColorHint="#607D8B"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/txt_forgot_pw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:padding="10dp"
+            android:text="@string/Forgot_Passwort"
+            android:textColor="@color/common_google_signin_btn_text_dark_default"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/btn_background"
+            android:onClick="loginBtn"
+            android:text="@string/login"
+            android:textAllCaps="false"
+            android:textSize="21sp" />
+
+        <TextView
+            android:id="@+id/btn_register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="0dp"
+            android:padding="8dp"
+            android:text="@string/new_account"
+            android:textColor="#FFFFFF"
+            android:textSize="21sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/testtest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="59dp"
+        android:layout_marginTop="53dp"
+        android:text="TextView" />
+</RelativeLayout>

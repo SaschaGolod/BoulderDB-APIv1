@@ -1,0 +1,44 @@
+<android.support.design.widget.AppBarLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/appbar"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <android.support.v7.widget.Toolbar
+            android:layout_height="?attr/actionBarSize"
+            android:layout_width="match_parent"
+            android:id="@+id/_toolbar1"
+            app:layout_scrollFlags="scroll|enterAlways"
+            android:background="@color/colorFlashh"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+        </android.support.v7.widget.Toolbar>
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tabs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorFlashh"
+        app:tabIndicatorColor="@color/common_google_signin_btn_text_dark_default"
+        app:tabMode="fixed"
+        app:tabSelectedTextColor="@color/common_google_signin_btn_text_dark_default"
+        app:tabTextColor="@color/common_google_signin_btn_text_dark_default">
+
+        <android.support.design.widget.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="tab_boulder" />
+
+        <android.support.design.widget.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="tab_ranking" />
+
+        <android.support.design.widget.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="tab_statistik" />
+    </android.support.design.widget.TabLayout>
+    </android.support.design.widget.AppBarLayout>

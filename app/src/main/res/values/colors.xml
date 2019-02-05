@@ -1,0 +1,12 @@
+<resources>
+	<color	name="colorPrimary">#28af97</color>
+	<color	name="colorPrimaryDark">#0084C2</color>
+	<color	name="colorAccent">#008DCD</color>
+	<color	name="colorControlHighlight">#008DCD</color>
+	<color	name="colorControlNormal">#57BEEE</color>
+
+	<color name="colorLoginScreen">#900000</color>
+	<color name="colorFlashh">#28af97</color>
+	<color name="TabColour">#ffffff</color>
+	<color name="TabInacktiv">#c7ffffff</color>
+</resources>

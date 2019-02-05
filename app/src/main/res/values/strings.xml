@@ -1,0 +1,13 @@
+<resources>
+	<string	name="app_name"	translatable="false">BDatenbankFirstTry</string>
+
+	<string name="flash_logo" translatable="false">Flashh</string>
+	<string name="username" translatable="false">Username</string>
+	<string name="passwort" translatable="false">Passwort</string>
+	<string name="Forgot_Passwort" translatable="false">Forgot Passwort\?</string>
+	<string name="login" translatable="false">Login</string>
+	<string name="new_account" translatable="false">Create new Account</string>
+	<string name="title_activity_login2">Sign in</string>
+    <string name="location">Location</string>
+	<string name="search">Search</string>
+</resources>
